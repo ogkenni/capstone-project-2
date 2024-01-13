@@ -1,0 +1,37 @@
+body{
+    display: block;
+    text-align: center;
+    background-color: #93B1A6;
+    color: #183D3D;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.btn{
+    background-color: #5C8374;
+    color: #183D3D;
+}
+.full-stack{
+    text-decoration: underline;
+}
+.front-text{
+    font-family: "Sacramento", cursive;
+    margin-bottom: 50px; padding-top: 50px;
+}
+.front{
+    height: 100vh;
+}
+@media (max-width: 900px){
+    .cv-ss{
+        display: none;
+    }
+    .front{
+        height: 80vh;
+    }
+}
